@@ -1,0 +1,28 @@
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.exe
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.deps.json
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.runtimeconfig.json
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.runtimeconfig.dev.json
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.dll
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.pdb
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.csproj.AssemblyReference.cache
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.AssemblyInfoInputs.cache
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.AssemblyInfo.cs
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.dll
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.pdb
+C:\Users\Huawei\Desktop\Monetochka\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.genruntimeconfig.cache
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.exe
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.deps.json
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.runtimeconfig.json
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.runtimeconfig.dev.json
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.dll
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.pdb
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.csproj.AssemblyReference.cache
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.AssemblyInfoInputs.cache
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.AssemblyInfo.cs
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.csproj.CoreCompileInputs.cache
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.dll
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.pdb
+C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.genruntimeconfig.cache

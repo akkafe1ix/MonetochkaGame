@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppClientMonetochka", "ConsoleAppClientMonetochka\ConsoleAppClientMonetochka.csproj", "{1580273D-FC7D-479B-BBB3-BED3F3A440A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1580273D-FC7D-479B-BBB3-BED3F3A440A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1580273D-FC7D-479B-BBB3-BED3F3A440A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1580273D-FC7D-479B-BBB3-BED3F3A440A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1580273D-FC7D-479B-BBB3-BED3F3A440A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDF45530-4F3F-4ED9-9A2D-6586DA04239F}
+	EndGlobalSection
+EndGlobal
