@@ -16,7 +16,8 @@ class Program
             TcpClient client = new TcpClient(serverIP, serverPort);
 
             Console.WriteLine("Подключено к серверу...");
-
+            Console.WriteLine("Введите ваш ник:");
+            string name = Console.ReadLine();
             // Получаем поток для чтения и записи
             NetworkStream stream = client.GetStream();
 
@@ -27,7 +28,7 @@ class Program
             Console.WriteLine(response);
             string player = response[8].ToString();
 
-            while (true)
+            while (false)
             {
                 if (((response == "Угадайте в какую руку противник положил монетку (1/2)")&(player=="1"))|((response == "Сделайте выбор в какую руку положить монетку (1/2)") & (player == "2")))
                 {

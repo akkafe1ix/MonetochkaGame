@@ -26,3 +26,17 @@ C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppC
 C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.dll
 C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.pdb
 C:\Users\Huawei\Desktop\Five Semestr\ОС и Сети\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.genruntimeconfig.cache
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.exe
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.deps.json
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.runtimeconfig.json
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.runtimeconfig.dev.json
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.dll
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\bin\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.pdb
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.csproj.AssemblyReference.cache
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.AssemblyInfoInputs.cache
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.AssemblyInfo.cs
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.csproj.CoreCompileInputs.cache
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.dll
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.pdb
+C:\Users\I\Desktop\study\net\MonetochkaGame\ConsoleAppClientMonetochka\ConsoleAppClientMonetochka\obj\Debug\netcoreapp3.1\ConsoleAppClientMonetochka.genruntimeconfig.cache
