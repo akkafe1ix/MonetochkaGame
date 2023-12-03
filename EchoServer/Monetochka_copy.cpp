@@ -15,7 +15,7 @@ volatile sig_atomic_t flag = 0;
 struct ClientInfo {
     int socket;
     std::string name;
-
+    ClientInfo() : socket(-1), name("") {} // Конструктор по умолчанию
     ClientInfo(int socket_, const std::string& name_) : socket(socket_), name(name_) {}
 };
 void sigintHandler(int sig) {
@@ -31,7 +31,9 @@ void clientHandler(ClientInfo client, std::vector<ClientInfo>& clients) {
     // Обработка подключения клиента
     char buffer[1024];
     int valread;
-
+    bool isPrivateChat = false;
+    ClientInfo secondClient;
+    
     while (true) {
         valread = recv(client.socket, buffer, sizeof(buffer), 0);
         buffer[valread] = '\0';
@@ -48,10 +50,52 @@ void clientHandler(ClientInfo client, std::vector<ClientInfo>& clients) {
         }
         std::string receivedMessage(buffer, valread);
         std::cout << client.name << " sent: " << receivedMessage << std::endl;
-        for (const ClientInfo& otherClient : clients) {
-            if (otherClient.socket != client.socket) {
-                std::string message = client.name + ": " + std::string(buffer, valread);
-                send(otherClient.socket, message.c_str(), message.size(), 0);
+        if (!isPrivateChat && (receivedMessage.substr(0, 4) == "//ls")) {
+            std::string requestedName = receivedMessage.substr(5);
+            std::cout << requestedName << std::endl;
+            auto it = std::find_if(clients.begin(), clients.end(), [&requestedName](const ClientInfo& c) {
+                return c.name == requestedName;
+            });
+
+            if (it != clients.end()) {
+                isPrivateChat = true;
+                secondClient = *it;
+
+                // Notify both clients about the private chat
+                std::string privateChatMessage = "You are now in a private chat with " + secondClient.name;
+                send(client.socket, privateChatMessage.c_str(), privateChatMessage.size(), 0);
+                privateChatMessage = "You are now in a private chat with " + client.name;
+                send(secondClient.socket, privateChatMessage.c_str(), privateChatMessage.size(), 0);
+            } else {
+                std::string errorMessage = "Requested user not found or unavailable";
+                send(client.socket, errorMessage.c_str(), errorMessage.size(), 0);
+            }
+        }else if(receivedMessage.substr(0, 6) == "//back"){
+            if (isPrivateChat) {
+                isPrivateChat = false;
+
+                std::string backMessage = "You have returned to the general chat";
+                send(client.socket, backMessage.c_str(), backMessage.size(), 0);
+                send(secondClient.socket, backMessage.c_str(), backMessage.size(), 0);
+            } else {
+                std::string errorMessage = "You are already in the general chat";
+                send(client.socket, errorMessage.c_str(), errorMessage.size(), 0);
+            }
+        
+        } else {
+            if (isPrivateChat) {
+                // Send message only to two clients involved in private chat
+                std::string message = receivedMessage;
+                send(client.socket, message.c_str(), message.size(), 0);
+                send(secondClient.socket, message.c_str(), message.size(), 0);
+            } else {
+                // Broadcast message to all clients
+                for (const ClientInfo& otherClient : clients) {
+                    if (otherClient.socket != client.socket) {
+                        std::string message = client.name + ": " + receivedMessage;
+                        send(otherClient.socket, message.c_str(), message.size(), 0);
+                    }
+                }
             }
         }
     }
