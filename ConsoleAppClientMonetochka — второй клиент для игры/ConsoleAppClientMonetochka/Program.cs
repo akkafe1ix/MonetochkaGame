@@ -6,11 +6,15 @@ class Program
 {
     static void Main()
     {
+        //"82.179.140.18" -IP
+        //45693 -Порт
         try
         {
             // Устанавливаем IP адрес и порт сервера
-            string serverIP = "82.179.140.18"; // IP адрес сервера
-            int serverPort = 45693; // Порт сервера
+            Console.Write("Введите Ip-адресс: ");
+            string serverIP = Console.ReadLine(); // IP адрес сервера
+            Console.Write("Введите порт: ");
+            int serverPort = Convert.ToInt32(Console.ReadLine()); // Порт сервера
 
             // Создаем TcpClient
             TcpClient client = new TcpClient(serverIP, serverPort);
@@ -29,7 +33,7 @@ class Program
 
             while (true)
             {
-                if (((response == "Угадайте в какую руку противник положил монетку (1/2)") & (player == "1")) | ((response == "Сделайте выбор в какую руку положить монетку (1/2)") & (player == "2")))
+                if ((response == "Угадайте в какую руку противник положил монетку (1/2)") | (response == "Сделайте выбор в какую руку положить монетку (1/2)"))
                 {
                     Console.Write("Ответ: ");
                     string message = Console.ReadLine();
